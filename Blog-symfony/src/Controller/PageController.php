@@ -36,11 +36,4 @@ class PageController extends AbstractController
             'controller_name' => 'PageController',
         ]);
     }
-    #[Route('/why', name: 'why')]
-    public function why(): Response
-    {
-        return $this->render('page/why.html.twig', [
-            'controller_name' => 'PageController',
-        ]);
-    }
 }
