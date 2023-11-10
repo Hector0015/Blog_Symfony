@@ -927,4 +927,21 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+#servicio{
+  color: #ffffff;
+}
+
+#registrado{
+  color: #ffffff;
+}
+#registrado button{
+  background-color: brown;
+}
+
+#logear{
+  color: #ffffff;
+}
+
+
 /*# sourceMappingURL=style.css.map */

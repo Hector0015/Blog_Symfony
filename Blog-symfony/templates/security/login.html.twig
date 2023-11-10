@@ -3,6 +3,7 @@
 {% block title %}Log in!{% endblock %}
 
 {% block body %}
+<div id="logear">
 <form method="post">
     {% if error %}
         <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
@@ -29,4 +30,5 @@
     </button>
     <p>Si no tienes cuenta entra aquí<a href="register"> register</a></p>
 </form>
+</div>
 {% endblock %}
